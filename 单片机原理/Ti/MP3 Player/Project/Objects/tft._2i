@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\TivaWare_C_Series-2.1.4.178 -I ..\Bsp -I ..\Application -I ..\FreeRTOS\include
+-I.\RTE\_Target_1
+-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129
+-I"C:\Program Files\Keil_v5\ARM\CMSIS\Include"
+-D__UVISION_VERSION="529" -DTM4C1294NCPDT -Drvmdk -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA0
+-o .\objects\tft.o --omf_browse .\objects\tft.crf --depend .\objects\tft.d --feedback ".\Objects\MP3_Player.fed" "..\Bsp\tft.c"

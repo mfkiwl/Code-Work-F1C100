@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp
+".\rvmdk\cc932.o"
+".\rvmdk\cmdline.o"
+".\rvmdk\ff.o"
+".\rvmdk\frame.o"
+".\rvmdk\kentec320x240x16_ssd2119.o"
+".\rvmdk\mmc-dk-tm4c129x.o"
+".\rvmdk\pinout.o"
+".\rvmdk\sd_card.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\touch.o"
+".\rvmdk\uartstdio.o"
+".\rvmdk\ustdlib.o"
+"..\..\..\..\driverlib\rvmdk\driverlib.lib"
+"..\..\..\..\grlib\rvmdk\grlib.lib"
+--library_type=microlib --strict --scatter "sd_card.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\sd_card.map" -o .\rvmdk\sd_card.axf

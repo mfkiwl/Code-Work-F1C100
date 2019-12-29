@@ -1,0 +1,46 @@
+.\rvmdk\idle_task.o: idle_task.c
+.\rvmdk\idle_task.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\idle_task.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\idle_task.o: ..\..\..\..\utils/lwiplib.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\rvmdk\idle_task.o: .\lwipopts.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\ports\tiva-tm4c129\include\arch/cc.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/api.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/netifapi.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcp.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/mem.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/pbuf.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/err.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/def.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/netif.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/udp.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcpip.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/api_msg.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/sys.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\ports\tiva-tm4c129\include\arch/sys_arch.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\FreeRTOS.h
+.\rvmdk\idle_task.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\rvmdk\idle_task.o: .\FreeRTOSConfig.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\projdefs.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\portable.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\deprecated_definitions.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\mpu_wrappers.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\task.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\list.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\queue.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\FreeRTOS\Source\include\semphr.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/timers.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/sockets.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/stats.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/memp.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/memp_std.h
+.\rvmdk\idle_task.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h
+.\rvmdk\idle_task.o: display_task.h
+.\rvmdk\idle_task.o: idle_task.h

@@ -1,0 +1,49 @@
+.\rvmdk\fs.o: fs.c
+.\rvmdk\fs.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\fs.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\fs.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\rvmdk\fs.o: ..\..\..\..\utils/lwiplib.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\rvmdk\fs.o: .\lwipopts.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/debug.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/arch.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\ports\tiva-tm4c129\include\arch/cc.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/opt.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/api.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/netifapi.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcp.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/mem.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/pbuf.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/err.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/ip.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/def.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/netif.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\ipv4\lwip/icmp.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/udp.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcpip.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/api_msg.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/sys.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\ports\tiva-tm4c129\include\arch/sys_arch.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\FreeRTOS.h
+.\rvmdk\fs.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\rvmdk\fs.o: .\FreeRTOSConfig.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\projdefs.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\portable.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\deprecated_definitions.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\mpu_wrappers.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\task.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\list.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\queue.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\FreeRTOS\Source\include\semphr.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/timers.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/sockets.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/stats.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/memp.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/memp_std.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\src\include\lwip/tcp_impl.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\apps\httpserver_raw/httpd.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\apps\httpserver_raw/fs.h
+.\rvmdk\fs.o: ..\..\..\..\third_party\lwip-1.4.1\apps\httpserver_raw/fsdata.h
+.\rvmdk\fs.o: htmldata.h

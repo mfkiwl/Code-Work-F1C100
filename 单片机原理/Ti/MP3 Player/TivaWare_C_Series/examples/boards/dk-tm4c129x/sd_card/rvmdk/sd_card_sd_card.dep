@@ -1,0 +1,128 @@
+Dependencies for Project 'sd_card', Target 'sd_card': (DO NOT MODIFY !)
+F (..\..\..\..\third_party\fatfs\src\option\cc932.c)(0x5D67C79C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\cc932.o --omf_browse .\rvmdk\cc932.crf --depend .\rvmdk\cc932.d)
+I (..\..\..\..\third_party\fatfs\src\option\../ff.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs\src\option\../integer.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs\src\option\../ffconf.h)(0x5D67C79C)
+F (..\..\..\..\utils\cmdline.c)(0x5D67C7A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\cmdline.o --omf_browse .\rvmdk\cmdline.crf --depend .\rvmdk\cmdline.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\utils/cmdline.h)(0x5D67C7A0)
+F (..\..\..\..\third_party\fatfs\src\ff.c)(0x5D67C79C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\ff.o --omf_browse .\rvmdk\ff.crf --depend .\rvmdk\ff.d)
+I (..\..\..\..\third_party\fatfs\src\ff.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs\src\integer.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs\src\ffconf.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs\src\diskio.h)(0x5D67C79C)
+F (..\drivers\frame.c)(0x5D67C792)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\frame.o --omf_browse .\rvmdk\frame.crf --depend .\rvmdk\frame.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\grlib/grlib.h)(0x5D67C79C)
+I (..\drivers/frame.h)(0x5D67C792)
+F (..\drivers\kentec320x240x16_ssd2119.c)(0x5D67C792)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\kentec320x240x16_ssd2119.o --omf_browse .\rvmdk\kentec320x240x16_ssd2119.crf --depend .\rvmdk\kentec320x240x16_ssd2119.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\inc/hw_gpio.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_ints.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_memmap.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_types.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_sysctl.h)(0x5D67C79C)
+I (..\..\..\..\driverlib/gpio.h)(0x5D67C790)
+I (..\..\..\..\driverlib/interrupt.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\..\..\..\driverlib/timer.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/lcd.h)(0x5D67C790)
+I (..\..\..\..\grlib/grlib.h)(0x5D67C79C)
+I (..\drivers/kentec320x240x16_ssd2119.h)(0x5D67C792)
+F (..\..\..\..\third_party\fatfs\port\mmc-dk-tm4c129x.c)(0x5D67C79C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\mmc-dk-tm4c129x.o --omf_browse .\rvmdk\mmc-dk-tm4c129x.crf --depend .\rvmdk\mmc-dk-tm4c129x.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\inc/hw_memmap.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_types.h)(0x5D67C79C)
+I (..\..\..\..\driverlib/gpio.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom_map.h)(0x5D67C790)
+I (..\..\..\..\driverlib/ssi.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\..\..\..\third_party\fatfs/src/diskio.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs/src/integer.h)(0x5D67C79C)
+F (..\drivers\pinout.c)(0x5DBF953D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\pinout.o --omf_browse .\rvmdk\pinout.crf --depend .\rvmdk\pinout.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\inc/hw_gpio.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_memmap.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_types.h)(0x5D67C79C)
+I (..\..\..\..\driverlib/gpio.h)(0x5D67C790)
+I (..\..\..\..\driverlib/pin_map.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\drivers/pinout.h)(0x5D67C792)
+F (.\sd_card.c)(0x5DBF94F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\sd_card.o --omf_browse .\rvmdk\sd_card.crf --depend .\rvmdk\sd_card.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom_map.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\..\..\..\driverlib/systick.h)(0x5D67C790)
+I (..\..\..\..\grlib/grlib.h)(0x5D67C79C)
+I (..\..\..\..\grlib/widget.h)(0x5D67C79C)
+I (..\..\..\..\grlib/canvas.h)(0x5D67C79C)
+I (..\..\..\..\grlib/listbox.h)(0x5D67C79C)
+I (..\..\..\..\grlib/pushbutton.h)(0x5D67C79C)
+I (..\..\..\..\utils/cmdline.h)(0x5D67C7A0)
+I (..\..\..\..\utils/uartstdio.h)(0x5D67C7A0)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\..\..\..\utils/ustdlib.h)(0x5D67C7A0)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\time.h)(0x599ECD2E)
+I (..\..\..\..\third_party\fatfs/src/ff.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs/src/integer.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs/src/ffconf.h)(0x5D67C79C)
+I (..\..\..\..\third_party\fatfs/src/diskio.h)(0x5D67C79C)
+I (..\drivers/frame.h)(0x5D67C792)
+I (..\drivers/kentec320x240x16_ssd2119.h)(0x5D67C792)
+I (..\drivers/pinout.h)(0x5D67C792)
+I (..\drivers/touch.h)(0x5D67C792)
+F (.\startup_rvmdk.S)(0x5D67C792)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "TM4C1294NCPDT SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\drivers\touch.c)(0x5D67C792)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\touch.o --omf_browse .\rvmdk\touch.crf --depend .\rvmdk\touch.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\inc/hw_adc.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_gpio.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_ints.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_memmap.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_timer.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_types.h)(0x5D67C79C)
+I (..\..\..\..\driverlib/adc.h)(0x5D67C790)
+I (..\..\..\..\driverlib/gpio.h)(0x5D67C790)
+I (..\..\..\..\driverlib/interrupt.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\..\..\..\driverlib/timer.h)(0x5D67C790)
+I (..\..\..\..\grlib/grlib.h)(0x5D67C79C)
+I (..\..\..\..\grlib/widget.h)(0x5D67C79C)
+I (..\drivers/touch.h)(0x5D67C792)
+F (..\..\..\..\utils\uartstdio.c)(0x5D67C7A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\..\..\..\inc/hw_ints.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_memmap.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_types.h)(0x5D67C79C)
+I (..\..\..\..\inc/hw_uart.h)(0x5D67C79C)
+I (..\..\..\..\driverlib/debug.h)(0x5D67C790)
+I (..\..\..\..\driverlib/interrupt.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom.h)(0x5D67C790)
+I (..\..\..\..\driverlib/rom_map.h)(0x5D67C790)
+I (..\..\..\..\driverlib/sysctl.h)(0x5DB8ED47)
+I (..\..\..\..\driverlib/uart.h)(0x5D67C790)
+I (..\..\..\..\utils/uartstdio.h)(0x5D67C7A0)
+F (..\..\..\..\utils\ustdlib.c)(0x5D67C7A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. -I ..\..\..\..\third_party --c99-I.\RTE\_sd_card-IC:\Users\Chenhui\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\Chenhui\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129-D__UVISION_VERSION="527" -D_RTE_ -DTM4C1294NCPDT -Drvmdk -DPART_TM4C129XNCZAD -DTARGET_IS_TM4C129_RA0 -DENABLE_LFN -DUART_BUFFERED-o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\driverlib/debug.h)(0x5D67C790)
+I (..\..\..\..\utils/ustdlib.h)(0x5D67C7A0)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (D:\Program\Program Files\Keil5\ARM\ARMCC\include\time.h)(0x599ECD2E)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x5D67C790)()
+F (..\..\..\..\grlib\rvmdk\grlib.lib)(0x5D67C79C)()
+F (.\readme.txt)(0x5D67C792)()
