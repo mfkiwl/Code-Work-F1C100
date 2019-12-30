@@ -1,0 +1,198 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 Chenhui, 1, LIC=GMZ74-FINDI-FI552-9DVNH-XXRRU-4LU42
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  C:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Chenhui\OneDrive - embrace efficient mindshare\文档\Code&Homework\单片机原理\多功能MP3_201706060714_蒋晨辉\MP3 Player\Project\MP3_Player.uvprojx
+Project File Date:  12/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling KalmanFilter.c...
+..\Application\KalmanFilter.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\KalmanFilter.c: 1 warning, 0 errors
+compiling control.c...
+..\Application\control.c(28): warning:  #940-D: missing return statement at end of non-void function "PLAY" 
+  }
+..\Application\control.c(32): warning:  #940-D: missing return statement at end of non-void function "PAUSE" 
+  }
+..\Application\control.c(36): warning:  #940-D: missing return statement at end of non-void function "NEXT" 
+  }
+..\Application\control.c(40): warning:  #940-D: missing return statement at end of non-void function "PREVIOUS" 
+  }
+..\Application\control.c(44): warning:  #940-D: missing return statement at end of non-void function "ADD_VOLUME" 
+  }
+..\Application\control.c(48): warning:  #940-D: missing return statement at end of non-void function "SUB_VOLUME" 
+  }
+..\Application\control.c(53): warning:  #940-D: missing return statement at end of non-void function "STOP" 
+  }
+..\Application\control.c(58): warning:  #940-D: missing return statement at end of non-void function "PLAY_OR_PAUSE" 
+  }
+..\Application\control.c(65): warning:  #1-D: last line of file ends without a newline
+  }
+..\Application\control.c(65): warning:  #940-D: missing return statement at end of non-void function "SET_VOLUME" 
+  }
+..\Application\control.c: 10 warnings, 0 errors
+compiling main.c...
+..\Application\KalmanFilter.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\bmp.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\i2c.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\pn532.h(14): warning:  #1295-D: Deprecated declaration PN532_Init - give arg types
+  void PN532_Init();
+..\Bsp\pn532.h(15): warning:  #1295-D: Deprecated declaration PN532_Active - give arg types
+  int PN532_Active();
+..\Bsp\pn532.h(16): warning:  #1295-D: Deprecated declaration PN532_Clearbuffer - give arg types
+  void PN532_Clearbuffer();
+..\Bsp\pn532.h(17): warning:  #1295-D: Deprecated declaration PN532_Readuid - give arg types
+  uint32_t PN532_Readuid();
+..\Application\application.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\main.c: 8 warnings, 0 errors
+compiling bmp.c...
+..\Application\bmp.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\bmp.c: 1 warning, 0 errors
+assembling startup_rvmdk.S...
+compiling application.c...
+..\Application\KalmanFilter.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\bmp.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\i2c.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\pn532.h(14): warning:  #1295-D: Deprecated declaration PN532_Init - give arg types
+  void PN532_Init();
+..\Bsp\pn532.h(15): warning:  #1295-D: Deprecated declaration PN532_Active - give arg types
+  int PN532_Active();
+..\Bsp\pn532.h(16): warning:  #1295-D: Deprecated declaration PN532_Clearbuffer - give arg types
+  void PN532_Clearbuffer();
+..\Bsp\pn532.h(17): warning:  #1295-D: Deprecated declaration PN532_Readuid - give arg types
+  uint32_t PN532_Readuid();
+..\Application\application.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\application.c(63): warning:  #177-D: variable "t"  was declared but never referenced
+          int i = 0, t = 0;
+..\Application\application.c(86): warning:  #223-D: function "sprintf" declared implicitly
+          sprintf(s, "%d.bmp", index++);
+..\Application\application.c(228): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          temp = (uint8_t)(30 * K_V / 3200.0);
+..\Application\application.c(237): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          OLED_ShowStr(25, 1, s, 2);
+..\Application\application.c(238): warning:  #223-D: function "sprintf" declared implicitly
+  				sprintf(s,"V:%d  ",volume);
+..\Application\application.c(239): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          OLED_ShowStr(5, 4, s, 2);
+..\Application\application.c(314): warning:  #1-D: last line of file ends without a newline
+  }
+..\Application\application.c: 15 warnings, 0 errors
+compiling usart.c...
+..\Bsp\usart.c(58): warning:  #1-D: last line of file ends without a newline
+  }
+..\Bsp\usart.c: 1 warning, 0 errors
+compiling touch.c...
+..\Application\KalmanFilter.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\touch.c(175): warning:  #177-D: variable "sum"  was declared but never referenced
+      uint32_t sum[2] = {0};
+..\Bsp\touch.c: 2 warnings, 0 errors
+compiling infrared.c...
+..\Bsp\infrared.c(61): warning:  #550-D: variable "ir_time"  was set but never used
+  	uint16_t ir_time;
+..\Bsp\infrared.c: 1 warning, 0 errors
+compiling EPIinit.c...
+compiling led.c...
+compiling timer.c...
+compiling tft.c...
+..\Bsp\tft.c(32): warning:  #177-D: variable "g_cSeries"  was declared but never referenced
+  static tSeries g_cSeries[240];
+..\Bsp\tft.c: 1 warning, 0 errors
+compiling uartstdio.c...
+compiling buzzer.c...
+compiling sd.c...
+compiling accelerator.c...
+..\Bsp\i2c.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\accelerator.c(214): warning:  #1-D: last line of file ends without a newline
+  }
+..\Bsp\accelerator.c: 2 warnings, 0 errors
+compiling fatfs_port_tm4c1294.c...
+compiling PCA9557.c...
+compiling adc.c...
+..\Bsp\adc.c(149): warning:  #177-D: variable "v"  was declared but never referenced
+  	float v;
+..\Bsp\adc.c(150): warning:  #177-D: variable "s"  was declared but never referenced
+  	char s[20];
+..\Bsp\adc.c(227): warning:  #1-D: last line of file ends without a newline
+  }
+..\Bsp\adc.c: 3 warnings, 0 errors
+compiling OLED_I2C.c...
+..\Bsp\OLED_I2C.c(106): warning:  #61-D: integer operation result is out of range
+  	SysCtlDelay(100*50000000/3000);
+..\Bsp\OLED_I2C.c: 1 warning, 0 errors
+compiling pn532.c...
+..\Bsp\pn532.h(14): warning:  #1295-D: Deprecated declaration PN532_Init - give arg types
+  void PN532_Init();
+..\Bsp\pn532.h(15): warning:  #1295-D: Deprecated declaration PN532_Active - give arg types
+  int PN532_Active();
+..\Bsp\pn532.h(16): warning:  #1295-D: Deprecated declaration PN532_Clearbuffer - give arg types
+  void PN532_Clearbuffer();
+..\Bsp\pn532.h(17): warning:  #1295-D: Deprecated declaration PN532_Readuid - give arg types
+  uint32_t PN532_Readuid();
+..\Bsp\pn532.c: 4 warnings, 0 errors
+compiling cmdline.c...
+compiling croutine.c...
+compiling i2c.c...
+..\Bsp\i2c.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Bsp\i2c.c: 1 warning, 0 errors
+compiling heap_2.c...
+compiling list.c...
+compiling ff.c...
+compiling queue.c...
+compiling port.c...
+compiling tasks.c...
+compiling timers.c...
+compiling event_groups.c...
+linking...
+Program Size: Code=34544 RO-data=6564 RW-data=1644 ZI-data=178668  
+".\Objects\MP3_Player.axf" - 0 Error(s), 51 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Program Files\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

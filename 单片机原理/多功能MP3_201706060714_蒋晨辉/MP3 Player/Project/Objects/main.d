@@ -1,0 +1,59 @@
+.\objects\main.o: ..\Application\main.c
+.\objects\main.o: ..\Application\main.h
+.\objects\main.o: ..\Application\application.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: ..\TivaWare_C_Series\inc/hw_memmap.h
+.\objects\main.o: ..\TivaWare_C_Series\inc/hw_types.h
+.\objects\main.o: ..\TivaWare_C_Series\inc/hw_ints.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/gpio.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/pin_map.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/rom.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/rom_map.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/sysctl.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/interrupt.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/timer.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/systick.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/fpu.h
+.\objects\main.o: ..\Bsp\uartstdio.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\main.o: ..\Bsp\led.h
+.\objects\main.o: ..\Bsp\timer.h
+.\objects\main.o: ..\Bsp\usart.h
+.\objects\main.o: ..\Bsp\tft.h
+.\objects\main.o: ..\Bsp\infrared.h
+.\objects\main.o: ..\Bsp\touch.h
+.\objects\main.o: ..\Application\control.h
+.\objects\main.o: ..\Bsp\buzzer.h
+.\objects\main.o: ..\Bsp\sd.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: ..\TivaWare_C_Series\utils/cmdline.h
+.\objects\main.o: ..\TivaWare_C_Series\utils/uartstdio.h
+.\objects\main.o: ..\TivaWare_C_Series\third_party/fatfs/src/ff.h
+.\objects\main.o: ..\TivaWare_C_Series\third_party/fatfs/src/integer.h
+.\objects\main.o: ..\TivaWare_C_Series\third_party/fatfs/src/ffconf.h
+.\objects\main.o: ..\TivaWare_C_Series\third_party/fatfs/src/diskio.h
+.\objects\main.o: ..\TivaWare_C_Series\grlib/grlib.h
+.\objects\main.o: ..\Bsp\accelerator.h
+.\objects\main.o: ..\Application\KalmanFilter.h
+.\objects\main.o: ..\Application\bmp.h
+.\objects\main.o: ..\Bsp\adc.h
+.\objects\main.o: ..\Bsp\i2c.h
+.\objects\main.o: ..\Bsp\PCA9557.h
+.\objects\main.o: ..\Bsp\OLED_I2C.h
+.\objects\main.o: ..\Bsp\pn532.h
+.\objects\main.o: ..\TivaWare_C_Series\driverlib/uart.h
+.\objects\main.o: ..\FreeRTOS\include\FreeRTOS.h
+.\objects\main.o: C:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\main.o: ..\FreeRTOS\include\projdefs.h
+.\objects\main.o: ..\FreeRTOS\include\portable.h
+.\objects\main.o: ..\FreeRTOS\include\deprecated_definitions.h
+.\objects\main.o: ..\FreeRTOS\include\portmacro.h
+.\objects\main.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\objects\main.o: ..\FreeRTOS\include\task.h
+.\objects\main.o: ..\FreeRTOS\include\list.h
+.\objects\main.o: ..\FreeRTOS\include\semphr.h
+.\objects\main.o: ..\FreeRTOS\include\queue.h
+.\objects\main.o: ..\FreeRTOS\include\event_groups.h
+.\objects\main.o: ..\FreeRTOS\include\timers.h

@@ -1,0 +1,35 @@
+#ifndef ACCELERATOR_H
+#define ACCELERATOR_H
+
+#include <stdint.h>
+#include <stdbool.h>
+
+#define I2C0_MASTER_BASE 0x40020000
+#define I2C0_SLAVE_BASE 0x40020000
+
+#define ACCELERATOR_W 0x3A
+#define ACCELERATOR_R 0x3B
+
+#define ACCELERATOR_DEVID 0x00
+#define ACCELERATOR_DATA_FORMAT 0x31
+#define ACCELERATOR_BW_RATE 0x2C
+#define ACCELERATOR_POWER_CTL 0x2D
+#define ACCELERATOR_INT_ENABLE 0x2E
+#define ACCELERATOR_OFSX 0x1E
+#define ACCELERATOR_OFSY 0x1F
+#define ACCELERATOR_OFSZ 0x20
+
+#define ACCELERATOR_X_L 0x32
+#define ACCELERATOR_X_H 0x33
+
+#define ACCELERATOR_Y_L 0x34
+#define ACCELERATOR_Y_H 0x35
+
+#define ACCELERATOR_Z_L 0x36
+#define ACCELERATOR_Z_H 0x37
+
+void ACCELERATOR_Init(void);
+int ACCELERATOR_Read(char);
+void ACCELERATOR_Test(void);
+
+#endif
